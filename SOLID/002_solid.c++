@@ -1,4 +1,4 @@
-//ocp
+//Oppen Closed Principle (OCP)
 
 #include<iostream>
 using namespace std;
