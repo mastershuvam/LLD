@@ -25,7 +25,7 @@ public:
     }
 };
 
-// 1️⃣ ShoppingCart: manages products
+// 1️ ShoppingCart: manages products
 class ShoppingCart {
     vector<Product*> products;
 
@@ -47,7 +47,7 @@ public:
     }
 };
 
-// 2️⃣ ShoppingCartPrinter: prints invoice
+// 2️ ShoppingCartPrinter: prints invoice
 class ShoppingCartPrinter {
     ShoppingCart* cart;
 
@@ -67,7 +67,7 @@ public:
     }
 };
 
-// 3️⃣ ShoppingCartStorage: saves to DB
+// 3️ ShoppingCartStorage: saves to DB
 class ShoppingCartStorage {
     ShoppingCart* cart;
 
